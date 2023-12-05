@@ -1,0 +1,39 @@
+:root {
+    --fontsizebig: 36px;
+    --fontsizemedium: 20px;
+    --fontsizesmall: 16px;
+
+    --strong-gray: #2B2D42;
+    --medium-gray: #8D99AE;
+    --light-gray: #EDF2F4;
+    --medium-red: #EF233C;
+    --strong-red: #D90429;
+}
+
+.contact-container {
+    border: 0.5px solid rgba(237, 242, 244, 0.8);
+    border-radius: 10px;
+    width: 250px;
+    height: 170px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 10px #8D99AE;
+}
+
+.name-title {
+    font-size: var(--fontsizebig);
+}
+
+.phone-desc {
+    font-size: var(--fontsizemedium);
+}
+
+.relationship-desc {
+    font-size: var(--fontsizesmall);
+}
+
+.personalized-button {
+    border-style: none;
+    margin: 5px;
+    padding: 5px;
+}
